@@ -1,0 +1,140 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(241, 240, 240);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+.active {
+    background-color: #04AA6D;
+}
+
+.menu {
+    /* trên dưới trái phải */
+    margin: 30px 60px;
+    /* căn ngăng */
+    display: flex;
+    /* tách đều 3 cái */
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    /* căn giữa trên dưới */
+    align-items: center;
+}
+
+.logo-title {
+    /* trên theo kim đồng hồ  */
+    margin: 8px 0px 8px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.login-container {
+    width: 380px;
+    height: 280px;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-container h2 {
+    text-align: center;
+}
+.login-container input[type="text"], .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.login-container input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.login-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.hangdoc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.logo1{
+    display: flex;
+    /* căn giữa trên dưới */
+    align-items: center;
+}
+.ket1 logo-title {
+        /* trên theo kim đồng hồ  */
+        margin: 8px 0px 8px 15px;   
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+}
+.mail{
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between; /* Các cột sẽ căn giữa và có khoảng trống giữa chúng */
+    background-color: rgb(113, 125, 255);
+
+}
+
+.ket1, .ket2, .ket3, .ket4 {
+    flex: 1; /* Các cột có cùng độ rộng */
+    padding: 20px; /* Thêm padding cho từng cột (tùy chọn) */
+    border: 1px solid #ccc; 
+}
+
+.dangnhap{
+    text-decoration: none;
+}
+
+.dangnhap::before {
+    content: "\f2bd"; /* Mã Unicode của biểu tượng "fa-user-circle" trong Font Awesome */
+    font-family: 'FontAwesome';
+    margin-right: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
